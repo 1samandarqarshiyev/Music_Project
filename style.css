@@ -1,0 +1,241 @@
+body {
+  background-color: rgb(0, 0, 0);
+}
+body header {
+  background: linear-gradient(190deg, rgb(25, 2, 49) 25%, rgb(73, 15, 135) 100%);
+  background-size: cover;
+  height: auto;
+  width: 100%;
+}
+body header .container .header1 {
+  display: flex;
+  align-items: center;
+}
+body header .container .header1 .img-item {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+body header .container .header1 ul li a {
+  color: white;
+}
+body header .container .header1 ul li :active {
+  color: black;
+}
+body header .container .header2 .music_player {
+  display: flex;
+  justify-content: center;
+  margin: 5% 0% 5% 0%;
+}
+body header .container .header2 .music_player .block p {
+  color: white;
+  margin: 5% 0% 5% 0%;
+  font-size: 120%;
+}
+body header .container .header2 .phone {
+  display: flex;
+  justify-content: center;
+}
+body main {
+  background: linear-gradient(180deg, rgb(213, 48, 5) 90%, rgb(0, 0, 0) 100%);
+}
+body main .container .row .music {
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+}
+body main .container .row .music h1 {
+  color: white;
+}
+body main .container-fluid .row .buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main .container-fluid .row .buttons button {
+  background: linear-gradient(135deg, rgb(177, 62, 24) 30%, rgb(243, 80, 26) 100%);
+  width: 100%;
+  height: auto;
+  margin: 5% 0% 5% 0%;
+  color: white;
+  padding: 12px;
+}
+body main .container-fluid .row .buttons :active {
+  color: black;
+}
+body main .container-fluid .row .disk {
+  display: flex;
+  align-items: center;
+}
+body section .main2 {
+  background-color: black;
+}
+body section .main2 .container .row .about {
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+}
+body section .main2 .container .row .about h1 {
+  color: white;
+}
+body section .main2 .container .row .text p {
+  color: white;
+  font-size: 120%;
+  margin: 20% 0% 30% 0%;
+}
+body section .main3 {
+  background: linear-gradient(180deg, rgb(213, 48, 5) 90%, rgb(0, 0, 0) 100%);
+}
+body section .main3 .container .row .store {
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+}
+body section .main3 .container .row .store h1 {
+  color: white;
+}
+body section .main3 .container-fluid .row .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body section .main3 .container-fluid .row .buttons .row .button1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body section .main3 .container-fluid .row .buttons .row .button1 button {
+  width: 90%;
+  height: auto;
+  margin: 5% 0% 5% 0%;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  border-radius: 50px;
+  padding-top: 0px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 0px;
+}
+body section .main3 .container-fluid .row .buttons .row .button2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body section .main3 .container-fluid .row .buttons .row .button2 button {
+  width: 90%;
+  height: auto;
+  margin: 5% 0% 5% 0%;
+  color: rgb(0, 0, 0);
+  background-color: white;
+  border-radius: 50px;
+  padding-top: 0px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 0px;
+}
+body section .main3 .container-fluid .row .buttons .row .text-h {
+  color: white;
+  text-align: center;
+  margin: 2% 0% 2% 0%;
+}
+body section .main3 .container-fluid .row .buttons .row .text-p {
+  color: white;
+  text-align: center;
+  margin: 2% 0% 0% 0%;
+}
+body section .main3 .container-fluid .row .buttons .row .text-a {
+  display: flex;
+  justify-content: center;
+}
+body section .main3 .container-fluid .row .buttons .row .text-a a {
+  color: rgb(0, 0, 0);
+  margin: 0% 0% 5% 0%;
+}
+body section .main3 .container-fluid .row .mackbook {
+  margin-bottom: 30px;
+}
+body footer {
+  background-color: black;
+}
+body footer .container .row .text1 {
+  display: flex;
+  justify-content: center;
+}
+body footer .container .row .text1 h4 {
+  color: white;
+  margin: 50px 0px 5px 0px;
+}
+body footer .container .row .text1 a {
+  color: white;
+  text-decoration: none;
+}
+body footer .container .row .text2 {
+  display: flex;
+  justify-content: center;
+}
+body footer .container .row .text2 h4 {
+  color: white;
+  margin: 50px 0px 5px 0px;
+}
+body footer .container .row .text2 a {
+  color: white;
+  text-decoration: none;
+}
+body footer .container .row .text3 {
+  display: flex;
+  justify-content: center;
+}
+body footer .container .row .text3 h4 {
+  color: white;
+  margin: 50px 0px 5px 0px;
+}
+body footer .container .row .text3 a {
+  color: white;
+  text-decoration: none;
+}
+body footer .container .row .music_player {
+  margin: 50px 0px 5px 0px;
+}
+body footer .container .row .end-text1 {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body footer .container .row .end-text1 a {
+  color: white;
+  text-decoration: none;
+}
+body footer .container .row .end-text2 {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body footer .container .row .end-text2 a {
+  color: white;
+  text-decoration: none;
+}
+body footer .container .row .end-text3 {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body footer .container .row .end-text3 a {
+  color: white;
+  text-decoration: none;
+}
+body footer .container .row .end-text4 {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body footer .container .row .end-text4 a {
+  color: white;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */

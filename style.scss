@@ -1,0 +1,288 @@
+body{
+    background-color: rgb(0, 0, 0);
+    header{
+        background: linear-gradient(190deg, rgb(25, 2, 49) 25%, rgb(73, 15, 135) 100%);
+        background-size: cover;
+        height: auto;
+        width: 100%;
+        .container{
+            .header1{
+                display: flex;
+                align-items: center;
+                .img-item{
+                    padding-top: 12px;
+                    padding-bottom: 12px;
+                }
+                ul{
+                    li{                 
+                        a{                       
+                            color: white;
+                        }
+                        :active{
+                            color: black;
+                        }
+                    }
+                }
+            }
+            .header2{
+                .music_player{
+                    display: flex;
+                    justify-content: center;
+                    margin: 5% 0% 5% 0%;
+                    .block{
+                        p{
+                            color: white;
+                            margin: 5% 0% 5% 0%;
+                            font-size: 120%;
+                        }
+                    }
+                }
+                .phone{
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+
+
+    main{
+        background: linear-gradient(180deg, rgba(213, 48, 5, 1) 90%, rgb(0, 0, 0) 100%);
+        .container{
+            .row{
+                .music{
+                    display: flex;
+                    align-items: center;
+                    padding-top: 50px;
+                    h1{
+                        color: white;
+                    }
+                }
+            }
+        }
+        .container-fluid{
+            .row{
+                .buttons{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    button{
+                        background: linear-gradient(135deg, rgba(177, 62, 24, 1) 30%, rgba(243, 80, 26, 1) 100%);
+                        width: 100%;
+                        height: auto;
+                        margin: 5% 0% 5% 0%;
+                        color: white;
+                        padding: 12px;
+                    }
+                    :active{
+                        color: black;
+                    }
+                }
+                .disk{
+                    display: flex;
+                    align-items: center;
+                }
+            }
+        }
+
+    }
+
+
+    section{
+        .main2{
+            background-color: black;
+            .container{
+                .row{
+                    .about{
+                        display: flex;
+                        align-items: center;
+                        padding-top: 50px;
+                        h1{
+                            color: white;
+                        }
+                    }
+                    .text{
+                        p{
+                            color: white;
+                            font-size: 120%;
+                            margin: 20% 0% 30% 0%;
+                        }
+                    }
+                }
+            }
+        }
+        .main3{
+            background: linear-gradient(180deg, rgba(213, 48, 5, 1) 90%, rgb(0, 0, 0) 100%);
+            .container{
+                .row{
+                    .store{
+                        display: flex;
+                        align-items: center;
+                        padding-top: 50px;
+                        h1{
+                            color: white;
+                        }
+                    }
+                }
+            }
+            .container-fluid{
+                .row{
+                    .buttons{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        .row{
+                            .button1{
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                button{
+                                    width: 90%;
+                                    height: auto;
+                                    margin: 5% 0% 5% 0%;
+                                    color: rgb(255, 255, 255);
+                                    background-color: black;
+                                    border-radius: 50px;
+                                    padding-top: 0px;
+                                    padding-right: 20px;
+                                    padding-left: 20px;
+                                    padding-bottom: 0px;
+                                }
+                            }
+                            .button2{
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                button{
+                                    width: 90%;
+                                    height: auto;
+                                    margin: 5% 0% 5% 0%;
+                                    color: rgb(0, 0, 0);
+                                    background-color: white;
+                                    border-radius: 50px;
+                                    padding-top: 0px;
+                                    padding-right: 20px;
+                                    padding-left: 20px;
+                                    padding-bottom: 0px;
+                                }
+                            }
+                            .text-h{
+                                color: white;
+                                text-align: center;
+                                margin: 2% 0% 2% 0%;
+                            }
+                            .text-p{
+                                color: white;
+                                text-align: center;
+                                margin: 2% 0% 0% 0%;
+                            }
+                            .text-a{
+                                display: flex;
+                                justify-content: center;
+                                a{
+                                    color: rgb(0, 0, 0);
+                                    margin: 0% 0% 5% 0%;
+                                }
+                            }
+                        }
+                    }
+                    .mackbook{
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+        }
+    }
+
+
+    footer{
+        background-color: black;
+        .container{
+            .row{
+                .text1{
+                    display: flex;
+                    justify-content: center;
+                    h4{
+                        color: white;
+                        margin: 50px 0px 5px 0px;
+                    }
+                    a{
+                        color: white;
+                        text-decoration: none;
+                    }
+                }
+                .text2{
+                    display: flex;
+                    justify-content: center;
+                    h4{
+                        color: white;
+                        margin: 50px 0px 5px 0px;
+                    }
+                    a{
+                        color: white;
+                        text-decoration: none;
+                    }
+                }
+                .text3{
+                    display: flex;
+                    justify-content: center;
+                    h4{
+                        color: white;
+                        margin: 50px 0px 5px 0px;
+                    }
+                    a{
+                        color: white;
+                        text-decoration: none;
+                    }
+                }
+                .music_player{
+                    margin: 50px 0px 5px 0px;
+                }
+                .end-text1{
+                    margin-top: 10px;
+                    margin-bottom: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    a{
+                        color: white;
+                        text-decoration: none;
+                    }
+                }
+                .end-text2{
+                    margin-top: 10px;
+                    margin-bottom: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    a{
+                        color: white;
+                        text-decoration: none;
+                    }
+                }
+                .end-text3{
+                    margin-top: 10px;
+                    margin-bottom: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    a{
+                        color: white;
+                        text-decoration: none;
+                    }
+                }
+                .end-text4{
+                    margin-top: 10px;
+                    margin-bottom: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    a{
+                        color: white;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
